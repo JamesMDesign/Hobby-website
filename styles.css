@@ -1,0 +1,123 @@
+.body {
+    font-family: monospace;
+}
+
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+ }
+
+.navbar-brand {
+    font-weight: bolder;
+    /* font-size: 28px !important; */
+    /* color: rgb(255, 0, 149) !important; */
+     color: rgb(101, 104, 255) !important;
+    /* color: rgb(33, 74, 240) !important; */
+    /* color: rgb(33, 74, 240) !important; */ 
+}
+
+.logo {
+  width: 10%;
+  height: 10%;
+}
+
+
+.subheadingContainer {
+    padding: 5px;
+    margin: 2em;
+    background-color: rgba(255, 127, 127, 0.4);
+    display: flex;
+    max-width: 800px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    margin-bottom: 250px;
+}
+
+.music-player {
+    padding: 5px;
+    margin: 2em;
+}
+
+.portfolio-gallery {
+    padding: 5px;
+    margin: 2em;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  /* .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+    max-width: 1400px;
+    padding: 20px 10px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    object-position:top;
+  }
+  
+  .gallery::after {
+    content: "";
+    width: 350px;
+  } */
+
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+    max-width: 1400px;
+    padding: 20px 10px;
+  }
+
+  .gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    flex-wrap: wrap;
+    object-fit:cover;
+    object-position:top;
+  }
+
+  .gallery::after {
+    content: "";
+    width: 350px;
+  }
+
+
+
+  .centered {
+    color:rgb(0, 221, 255);
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 5em;
+    margin-top: 12em;
+    max-width: 40%;
+    float:top;
+  }
+
+  @media only screen and (min-width: 800px) {
+    .centered {
+       margin-left: 22em;
+    }
+  }
+
+  .bottom-div {
+    margin-bottom: 250px;
+  }
+
+  .footer01 {
+    margin-left: 15px;
+    padding-top: 15px;
+    font-family: monospace;
+    float:left;
+}
